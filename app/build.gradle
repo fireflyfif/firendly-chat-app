@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
 
 repositories {
     mavenLocal()
@@ -44,4 +43,8 @@ dependencies {
 
     // Firebase
     implementation 'com.google.firebase:firebase-core:16.0.6'
+    // Realtime Database
+    implementation'com.google.firebase:firebase-database:16.0.5'
 }
+
+apply plugin: 'com.google.gms.google-services'
