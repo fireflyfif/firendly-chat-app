@@ -123,6 +123,8 @@ public class MainActivity extends AppCompatActivity {
                 mMessageEditText.setText("");
             }
         });
+
+
     }
 
     @Override
